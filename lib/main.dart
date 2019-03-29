@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Startup Name Generator',
       theme: new ThemeData(
-        primaryColor: Colors.red
+        primaryColor: Colors.pink
       ),
       home: RandomWords(),
     );
@@ -109,6 +109,3 @@ class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => new RandomWordsState();
 }
- /*
- * ich bracuhe texat
- * */
